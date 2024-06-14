@@ -1,0 +1,94 @@
+.table-container{
+    overflow: auto;
+    // max-height: 60vh;
+    padding: 0 !important;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+tbody tr, thead tr:nth-child(2){
+    height: 40px;
+    border-bottom: 1px solid #dedede !important;
+}
+
+td:not(tfoot td),
+th {
+    border-right: 1px solid #dedede !important;
+    min-width: 200px;
+    width: auto;
+    height: 30px !important;
+}
+
+td{
+    padding: 0 9px;
+}
+
+.sticky-header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border: none;
+}
+
+.headerColumnNames {
+    text-transform: capitalize;
+    display: flex;
+    height: 56px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #EFF9F4;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.table-container .field{
+    margin: 0;
+    padding: 3px 7px;
+    input,select{
+        width: 100%;
+        line-height: 35px;
+        height: 35px;
+        padding: 0 5px 0 28px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #7e7e7e;
+        border-radius: 5px;
+        border: none;
+        background: #F2F2F2;
+        font-weight: 400;
+    }
+}
+
+.base-TablePagination-root{
+    width: 100% !important;
+}
+
+.css-41hk25 .base-TablePagination-displayedRows {
+    margin: 0 !important;
+}
+
+.css-41hk25 .base-TablePagination-toolbar {
+    justify-content: end;
+    padding: 5px 0;
+    gap: 10px;
+}
+
+.css-41hk25 .base-TablePagination-select {
+    border: none !important;
+    color: #767676 !important;
+}
+
+.css-41hk25 .base-TablePagination-actions>button {
+    border: transparent !important;
+    margin: 0 5px;
+}
